@@ -1,0 +1,142 @@
+.container {
+    margin-left: 10px;
+}
+
+.logo {
+    height: 80px;
+    padding: 10px;
+}
+
+.col1 {
+    background-image: url(images/plane-quantity-background.png);
+    height: 560px;
+    width: 450px;
+}
+
+.col2 {
+    background-color: #99DC54;
+    height: 560px;
+    width: 450px;
+}
+
+.col3 {
+    background-image: url(images/plane-profit-background.png);
+    height: 560px;
+    width: 450px;
+}
+
+.p1 {
+    color: white;
+    margin: 64px 0px 0px 32px;
+    font-family: SourceSansPro-Bold;
+    font-size: 60px;
+}
+
+.p2 {
+    color: white;
+    margin: 0px 0px 0px 32px;
+    font-family: SourceSansPro-Regular;
+    font-size: 40px;
+
+}
+span{
+    font-family: SourceSansPro-Regular;
+    font-size: 40px;
+}
+
+/* .bold {
+    font-family: SourceSansPro-Bold;
+} */
+
+/* .regular {
+    font-family: SourceSansPro-Regular;
+    
+} */
+
+#plane {
+    height: 80px;
+    vertical-align: middle;
+    width: 80px;
+    float: left;
+    margin-left: 20px;
+}
+/* #plane img{
+    float:left;
+
+} */
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url(fonts/SourceSansPro-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url(fonts/SourceSansPro-Bold.ttf);
+
+}
+
+/* .bottom-left{
+    padding-top: 64px;
+    padding-left: 20px;
+} */
+/* hr.solid {
+    padding-top: 80px;
+    border-top: 3px solid rgb(214, 209, 209);
+  } */
+.imgArrow {
+    height: 40px;
+    float: right;
+    padding-right: 0px;
+}
+
+hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p4 {
+    color: white;
+    margin: 80px 0px 0px 0px;
+    font-family: SourceSansPro-Regular;
+    font-size: 40px;
+}
+
+.p3 {
+    color: white;
+    margin: 0px 0px 0px 32px;
+    font-family: SourceSansPro-Regular;
+    font-size: 40px;
+    padding-top: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+.dropdown {
+    font-family: SourceSansPro-Regular;
+    font-size: 16px;
+    margin-left: 700px;
+    text-align: justify;
+    line-height: 40px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    border-width: 1px;
+    
+
+}
+.dropdown label{
+    padding: 10px 0px 10px 10px;
+    margin-right: 72px;
+}
